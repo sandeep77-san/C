@@ -1,0 +1,33 @@
+//// structure , union, typedef, enum
+
+//enums
+- enum color{
+RED, BLUE, GREEN, WHITE
+};
+- makes code readable
+- 
+//typedef
+- is used to define new type, or alias to exiisting type 
+ unsigned short int var;
+ typedef unsigned short int u_int16; ( from now onwards u_init16 can be used)
+ u_int16 var2; // correct ways
+
+//structure
+-can combine different datatypes(heterogenious data types) in a single entity -ex: store student record
+-struct compound_datapacket {
+		int id;
+		char* name;
+		char* data;
+	};
+
+//linked list
+- linked list (evry node will have data point and pointer to next node)
+ - one ptr points to head and anothe pointer tail of linked list
+- last node points to NULL
+
+//unions
+- size of word ( 8bit/32bit/64bit depending on the which bit machine)
+- memebers of the union shares memory
+- memory - is largest size of data  memory 
+
+

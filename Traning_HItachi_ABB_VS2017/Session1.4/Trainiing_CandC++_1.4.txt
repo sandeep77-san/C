@@ -1,0 +1,30 @@
+// C++ introduction ( it is an extension of C)
+
+// in C programming
+global varaibles /function - Extern symbols
+
+//file1.c
+int g_var;
+int main()
+{
+
+}
+void fun();
+
+//file2.c
+
+int g_var;
+void function()
+
+gcc -c file1.c    gcc -c file2.c
+file1.o           file2.o
+
+gcc file1.o file2.o
+a.out - excutable file
+
+//same varible in different fies in a same project , linker raises the error - global name pollution
+
+in C++ namespace will solve this problem
+
+
+

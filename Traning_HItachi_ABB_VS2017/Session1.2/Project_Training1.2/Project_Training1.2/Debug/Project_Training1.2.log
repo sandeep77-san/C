@@ -1,0 +1,5 @@
+﻿  arrays_pointer.c
+c:\users\insapab\desktop\python\c\traning_abb\session1.2\project_training1.2\project_training1.2\arrays_pointer.c(14): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char (*)[3]'
+c:\users\insapab\desktop\python\c\traning_abb\session1.2\project_training1.2\project_training1.2\arrays_pointer.c(17): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char (*)[3]'
+c:\users\insapab\desktop\python\c\traning_abb\session1.2\project_training1.2\project_training1.2\arrays_pointer.c(18): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char (*)[3]'
+  Project_Training1.2.vcxproj -> C:\Users\insapab\Desktop\Python\C\Traning_ABB\Session1.2\Project_Training1.2\Debug\Project_Training1.2.exe

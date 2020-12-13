@@ -1,0 +1,28 @@
+// Arrays and pointers
+
+Arrays
+-collection of homogenious elements
+- Array name represents base address (&arr, &arr[0])
+- int arr_1[5]; //size = 20 bytes elements will have garbage value strored on STACK grows upwards
+- int arr_1[] = {1,2,3,4}
+- arrays cant be assigned to a value (arr = 32) - wrong
+- arr[] // with out size declaration not allowed
+-  arr[] = {1,2,3} - allowed
+- no array bound check in c
+- int arr[5] = {1,2,3}; partially intialized, the remaining elements are guaranteed 0;
+- int arr[100] = {0};the remaining 99 are also intalized to 0
+
+character arrays
+-char arr[3]= {'a', 'b', 'c'}/size 3 bytes
+-char arr[] = "hello" // 6 bytes -one null charcter \0 
+- character array terminated with null character(\0) is string
+
+// pointers
+- int* ptr; //unintialzed pointer -garbage value - 'Wild pointer'
+- int* ptr2 = NULL; // null pointers
+-  size of char* int* folat* is the same 32bit/64bit but it fetchs data of that type (char - 1byte data, int - 4 byte data)
+-  void* ptr; generic pointer(it can holds adress of any data type address)
+
+// consts
+- //const int ci; // rule: always intialize the constant at the time of declaration, we cannot modify it later since it is read only memory
+- const pointer - in c++ 'this' pointer inside const member function of the class
