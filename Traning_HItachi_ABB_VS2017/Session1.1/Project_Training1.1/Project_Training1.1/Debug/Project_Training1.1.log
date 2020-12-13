@@ -1,0 +1,3 @@
+﻿  app.c
+c:\users\insapab\desktop\python\c\project_training\project_training\app.c(21): warning C4305: 'initializing': truncation from 'int' to 'unsigned char'
+  Project_Training.vcxproj -> C:\Users\insapab\Desktop\Python\C\Project_Training\Debug\Project_Training.exe
